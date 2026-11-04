@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Your private CG Rentals camera and rig catalogue. Search equipment and compare listed rental prices in Ugandan shillings.">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#f6f5f0">
+  <title>CG Rentals · Gear Desk</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" type="module"></script>
+</head>
+<body>
+  <a href="#catalogue" class="skip-link">Skip to equipment</a>
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="CG Rentals Gear Desk home"><span class="brand-mark" aria-hidden="true">cg<span>↗</span></span><span>CG RENTALS<span class="brand-sub">GEAR DESK</span></span></a>
+    <div class="header-right"><span class="private-badge"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10" width="14" height="11" rx="3"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg> Private workspace</span><span class="header-divider"></span><span class="currency">UGX <span>Ugandan shilling</span></span></div>
+  </header>
+  <div class="workspace">
+    <aside class="sidebar" aria-label="Equipment categories">
+      <div class="sidebar-label">YOUR CATALOGUE</div>
+      <button class="category-button active" data-category="all" aria-pressed="true"><span class="nav-icon" data-icon="grid"></span><span>All equipment</span><span class="count" id="allCount">38</span></button>
+      <div class="sidebar-label group-label">CAMERAS</div>
+      <div id="cameraCategories"></div>
+      <div class="sidebar-label group-label">RIGS & MOVEMENT</div>
+      <div id="rigCategories"></div>
+      <div class="sidebar-note"><span class="note-icon" data-icon="book"></span><strong>A little less admin.<br>A little more action.</strong><p>Find the right gear for your next production.</p></div>
+    </aside>
+    <main id="catalogue">
+      <div class="breadcrumb">Workspace <span>/</span> Rental catalogue</div>
+      <section class="intro" aria-labelledby="pageTitle">
+        <div><div class="eyebrow"><span></span> THE PRODUCTION STARTS HERE</div><h1 id="pageTitle">Good gear. Clear prices.</h1><p>Your camera and rig rental catalogue, all in one place.</p></div>
+        <div class="catalogue-stamp"><span>CG</span><div>38 pieces of possibility<small>Cameras, rigs & movement</small></div></div>
+      </section>
+      <section class="stats" aria-label="Catalogue overview">
+        <div><span class="stat-label">THE COLLECTION</span><strong>38 <small>items</small></strong></div>
+        <div><span class="stat-label">CAMERAS</span><strong>25 <small>to choose from</small></strong></div>
+        <div><span class="stat-label">RIGS & MOVEMENT</span><strong>13 <small>ways to move</small></strong></div>
+        <div class="price-stat"><span class="stat-label">CATALOGUE RANGE · UGX</span><strong>50,000 <span>—</span> 500,000</strong></div>
+      </section>
+      <section class="equipment" aria-labelledby="equipmentTitle">
+        <div class="section-heading"><div><h2 id="equipmentTitle">All equipment</h2><span id="resultsCount" role="status" aria-live="polite">Loading catalogue…</span></div><button class="compare-launch secondary" id="headerCompare" disabled><span data-icon="compare"></span>Compare <span class="compare-count">0</span></button></div>
+        <div class="toolbar">
+          <div class="search-field"><span data-icon="search"></span><label class="sr-only" for="search">Search equipment</label><input type="search" id="search" placeholder="Search by name, model or kit…" autocomplete="off"><button id="clearSearch" aria-label="Clear search" hidden><span data-icon="close"></span></button><kbd aria-hidden="true">/</kbd></div>
+          <div class="mobile-category"><label class="sr-only" for="categorySelect">Filter by category</label><select id="categorySelect"><option value="all">All categories (38)</option></select></div>
+          <div class="sort-control"><label for="sort">Sort by</label><select id="sort"><option value="catalogue">Catalogue order</option><option value="price-asc">Price: low to high</option><option value="price-desc">Price: high to low</option><option value="name">Name: A–Z</option></select></div>
+        </div>
+        <div class="filter-summary" id="filterSummary" hidden><span id="filterText"></span><button id="resetFilters">Reset filters <span aria-hidden="true">↺</span></button></div>
+        <div class="table-labels" aria-hidden="true"><span>EQUIPMENT</span><span>CATEGORY</span><span>RENTAL PRICE · UGX</span><span>COMPARE</span></div>
+        <div id="equipmentList" class="equipment-list" aria-busy="true"><div class="loading">Getting the gear ready…</div></div>
+        <div id="emptyState" class="empty-state" hidden><span data-icon="search"></span><h3>No gear found</h3><p>Try another model or choose a different category.</p><button class="primary" id="emptyReset">Show all equipment</button></div>
+        <div id="loadError" class="empty-state" hidden><h3>The catalogue couldn’t load</h3><p>Refresh the page to try again.</p><button class="primary" id="reload">Try again</button></div>
+        <div class="catalogue-footer"><span><span class="source-dot"></span> CG Rentals · Saved pricelist, 7 Sep 2026</span><span>Prices in UGX · Rental period unspecified in source</span></div>
+      </section>
+      <footer class="page-footer"><span>Less searching. More shooting.</span><span>CG RENTALS <span class="footer-cross">✳</span></span></footer>
+    </main>
+  </div>
+  <section class="selection-tray" id="selectionTray" aria-label="Selected equipment" hidden>
+    <div class="tray-info"><span class="tray-symbol" data-icon="compare"></span><div><strong id="selectionTitle">1 item selected</strong><span id="selectionHint">Add one more to compare prices</span></div></div>
+    <div class="selected-items" id="selectedItems"></div>
+    <div class="tray-actions"><button class="tray-clear" id="clearSelection">Clear</button><button class="primary compare-launch" id="trayCompare" disabled>Compare prices <span aria-hidden="true">↗</span></button></div>
+  </section>
+  <dialog id="compareDialog" aria-labelledby="compareTitle" aria-describedby="compareDescription">
+    <div class="dialog-header"><div><div class="eyebrow">SIDE BY SIDE</div><h2 id="compareTitle">Find your best fit.</h2><p id="compareDescription">Listed rental prices in UGX. Compare up to 4 items.</p></div><button class="icon-button" id="closeCompare" aria-label="Close comparison"><span data-icon="close"></span></button></div>
+    <div class="compare-grid" id="compareGrid"></div>
+    <div class="dialog-footer"><p>Catalogue prices · Rental period not specified.<br>Package details are shown as listed in your source.</p><button class="secondary" id="backToCatalogue">Back to catalogue</button></div>
+  </dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+  <noscript><p class="noscript">Enable JavaScript to search, filter and compare this catalogue.</p></noscript>
+</body>
+</html>

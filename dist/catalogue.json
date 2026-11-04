@@ -1,0 +1,344 @@
+[
+  {
+    "id": 0,
+    "title": "Sony FX3",
+    "description": "Full-frame cinema camera",
+    "category": "cinema",
+    "price": 200000,
+    "sourceName": "Sony FX3 Full-Frame Cinema Camera",
+    "sourceCategory": "Cinema Camera"
+  },
+  {
+    "id": 1,
+    "title": "Canon EOS R5 C",
+    "description": "Mirrorless cinema camera",
+    "category": "cinema",
+    "price": 250000,
+    "sourceName": "Canon EOS R5 C Mirrorless Cinema Camera",
+    "sourceCategory": "Mirrorless Cinema Camera"
+  },
+  {
+    "id": 2,
+    "title": "Blackmagic Pocket 6K Pro",
+    "description": "Battery grip · Canon EF",
+    "category": "cinema",
+    "price": 150000,
+    "sourceName": "Blackmagic Design Pocket Cinema Camera 6K Pro With Battery Grip (Canon EF)",
+    "sourceCategory": "Cinema Camera"
+  },
+  {
+    "id": 3,
+    "title": "RED RAVEN DRAGON",
+    "description": "Camera brain / body",
+    "category": "cinema",
+    "price": 470000,
+    "sourceName": "RED RAVEN DRAGON BRAIN",
+    "sourceCategory": "Cinema Camera Body"
+  },
+  {
+    "id": 4,
+    "title": "Blackmagic Pocket 6K Pro",
+    "description": "V-Mount · Canon EF",
+    "category": "cinema",
+    "price": 150000,
+    "sourceName": "Blackmagic Design Pocket Cinema Camera 6K Pro with V-Mount (Canon EF)",
+    "sourceCategory": "Cinema Camera"
+  },
+  {
+    "id": 5,
+    "title": "Kinefinity MAVO 6K",
+    "description": "Body, rig, batteries & SSD",
+    "category": "cinema",
+    "price": 500000,
+    "sourceName": "KINEFINITY MAVO 6K; Body, Rig, Batteries and SSD",
+    "sourceCategory": "Cinema Camera Package"
+  },
+  {
+    "id": 6,
+    "title": "Sony FS7 MKII",
+    "description": "Body, rig, batteries, lens & memory",
+    "category": "cinema",
+    "price": 400000,
+    "sourceName": "Sony PMW-FS7 MKII; Body, Rig, Batteries, Lens and Memory",
+    "sourceCategory": "Cinema Camcorder Package"
+  },
+  {
+    "id": 7,
+    "title": "Blackmagic Pocket 4K",
+    "description": "Cinema camera",
+    "category": "cinema",
+    "price": 150000,
+    "sourceName": "Blackmagic Design Pocket Cinema Camera 4K",
+    "sourceCategory": "Cinema Camera"
+  },
+  {
+    "id": 8,
+    "title": "Panasonic DVX-200",
+    "description": "Body, rig, batteries & memory",
+    "category": "camcorders",
+    "price": 200000,
+    "sourceName": "Panasonic DVX-200; Body, Rig, Batteries and Memory",
+    "sourceCategory": "Professional Camcorder Package"
+  },
+  {
+    "id": 9,
+    "title": "Blackmagic URSA Mini Pro G2",
+    "description": "4.6K · body, rig, batteries & memory",
+    "category": "cinema",
+    "price": 300000,
+    "sourceName": "Black Magic Mini Ursa Pro 4.6K G2; Body, Rig, Batteries and Memory",
+    "sourceCategory": "Cinema Camera Package"
+  },
+  {
+    "id": 10,
+    "title": "Blackmagic Production Camera 4K",
+    "description": "Body, rig & memory",
+    "category": "cinema",
+    "price": 100000,
+    "sourceName": "BlackMagic Production Camera 4K; Body, Rig, Memory",
+    "sourceCategory": "Cinema Camera Package"
+  },
+  {
+    "id": 11,
+    "title": "Canon EOS R",
+    "description": "Body, EF adapter, batteries & memory",
+    "category": "mirrorless",
+    "price": 150000,
+    "sourceName": "Canon EOS R Body, EF Adapter, Batteries and Memory",
+    "sourceCategory": "Mirrorless Camera Package"
+  },
+  {
+    "id": 12,
+    "title": "Canon EOS 6D",
+    "description": "Body, rig, batteries & memory",
+    "category": "mirrorless",
+    "price": 100000,
+    "sourceName": "Canon EOS 6D; Body, Rig, Batteries and Memory",
+    "sourceCategory": "DSLR Camera Package"
+  },
+  {
+    "id": 13,
+    "title": "Canon 5D MK IV",
+    "description": "Body, rig, batteries & memory",
+    "category": "mirrorless",
+    "price": 150000,
+    "sourceName": "Canon 5D MK IV; Body, Rig, Batteries and Memory",
+    "sourceCategory": "DSLR Camera Package"
+  },
+  {
+    "id": 14,
+    "title": "Sony Alpha A7R IV",
+    "description": "Mirrorless camera",
+    "category": "mirrorless",
+    "price": 150000,
+    "sourceName": "Sony Alpha A7R IV",
+    "sourceCategory": "Mirrorless Camera"
+  },
+  {
+    "id": 15,
+    "title": "Sony Alpha A7R III",
+    "description": "Mirrorless camera",
+    "category": "mirrorless",
+    "price": 150000,
+    "sourceName": "Sony Alpha A7R III",
+    "sourceCategory": "Mirrorless Camera"
+  },
+  {
+    "id": 16,
+    "title": "Sony Alpha A7R II",
+    "description": "Mirrorless camera",
+    "category": "mirrorless",
+    "price": 100000,
+    "sourceName": "Sony Alpha a7R II",
+    "sourceCategory": "Mirrorless Camera"
+  },
+  {
+    "id": 17,
+    "title": "Sony Alpha A7S II",
+    "description": "Mirrorless camera",
+    "category": "mirrorless",
+    "price": 100000,
+    "sourceName": "Sony Alpha A7S II",
+    "sourceCategory": "Mirrorless Camera"
+  },
+  {
+    "id": 18,
+    "title": "Sony Alpha A7 III",
+    "description": "Mirrorless camera",
+    "category": "mirrorless",
+    "price": 150000,
+    "sourceName": "Sony Alpha a7 III",
+    "sourceCategory": "Mirrorless Camera"
+  },
+  {
+    "id": 19,
+    "title": "Fujifilm X-T30",
+    "description": "Includes 18–55mm lens",
+    "category": "mirrorless",
+    "price": 100000,
+    "sourceName": "FUJIFILM X-T30 with 18-55mm lens",
+    "sourceCategory": "Mirrorless Camera with Lens"
+  },
+  {
+    "id": 20,
+    "title": "Sony HVR-NX5",
+    "description": "Professional camcorder",
+    "category": "camcorders",
+    "price": 100000,
+    "sourceName": "Sony HVR-NX5",
+    "sourceCategory": "Professional Camcorder"
+  },
+  {
+    "id": 21,
+    "title": "Sony PXW-Z150",
+    "description": "4K XDCAM camcorder",
+    "category": "camcorders",
+    "price": 200000,
+    "sourceName": "Sony PXW-Z150 4K XDCAM",
+    "sourceCategory": "Professional Camcorder"
+  },
+  {
+    "id": 22,
+    "title": "GoPro HERO11 Black",
+    "description": "Action camera",
+    "category": "action",
+    "price": 80000,
+    "sourceName": "GoPro HERO11 Black",
+    "sourceCategory": "Action Camera"
+  },
+  {
+    "id": 23,
+    "title": "GoPro HERO10 Black",
+    "description": "Action camera",
+    "category": "action",
+    "price": 70000,
+    "sourceName": "GOPRO HERO10 BLACK",
+    "sourceCategory": "Action Camera"
+  },
+  {
+    "id": 24,
+    "title": "GoPro MAX",
+    "description": "360° action camera",
+    "category": "action",
+    "price": 80000,
+    "sourceName": "GoPro MAX 360°",
+    "sourceCategory": "360° Action Camera"
+  },
+  {
+    "id": 25,
+    "title": "EZ JIB",
+    "description": "18 ft camera crane",
+    "category": "jibs",
+    "price": 200000,
+    "sourceName": "EZ JIB 18FT",
+    "sourceCategory": "JIB / Camera Crane"
+  },
+  {
+    "id": 26,
+    "title": "Proaim JIB",
+    "description": "21 ft camera crane",
+    "category": "jibs",
+    "price": 200000,
+    "sourceName": "Proaim JIB 21FT",
+    "sourceCategory": "JIB / Camera Crane"
+  },
+  {
+    "id": 27,
+    "title": "Heavy JIB",
+    "description": "6 ft camera crane",
+    "category": "jibs",
+    "price": 100000,
+    "sourceName": "Heavy 6FT JIB",
+    "sourceCategory": "JIB / Camera Crane"
+  },
+  {
+    "id": 28,
+    "title": "Heavy Dolly",
+    "description": "Camera dolly",
+    "category": "dollies",
+    "price": 150000,
+    "sourceName": "Heavy Dolly",
+    "sourceCategory": "Camera Dolly"
+  },
+  {
+    "id": 29,
+    "title": "Heavy Slider",
+    "description": "12 ft slider",
+    "category": "sliders",
+    "price": 120000,
+    "sourceName": "12FT Heavy slider",
+    "sourceCategory": "Camera Slider"
+  },
+  {
+    "id": 30,
+    "title": "Heavy Slider",
+    "description": "8 ft slider",
+    "category": "sliders",
+    "price": 100000,
+    "sourceName": "8FT Heavy slider",
+    "sourceCategory": "Camera Slider"
+  },
+  {
+    "id": 31,
+    "title": "Double Slider for DSLR",
+    "description": "Slider only",
+    "category": "sliders",
+    "price": 50000,
+    "sourceName": "Double Slider for DSLR",
+    "sourceCategory": "Camera Slider"
+  },
+  {
+    "id": 32,
+    "title": "Double Slider for DSLR",
+    "description": "Includes tripod",
+    "category": "sliders",
+    "price": 100000,
+    "sourceName": "Double Slider for DSLR with Tripod",
+    "sourceCategory": "Camera Slider with Tripod"
+  },
+  {
+    "id": 33,
+    "title": "Motorized Slider",
+    "description": "4 ft motorized slider",
+    "category": "sliders",
+    "price": 150000,
+    "sourceName": "Motorized Slider 4ft",
+    "sourceCategory": "Motorized Camera Slider"
+  },
+  {
+    "id": 34,
+    "title": "DJI Ronin S",
+    "description": "Motorized gimbal stabilizer",
+    "category": "stabilizers",
+    "price": 120000,
+    "sourceName": "DJI RONIN S",
+    "sourceCategory": "Motorized Gimbal Stabilizer"
+  },
+  {
+    "id": 35,
+    "title": "Glidecam XR 4000",
+    "description": "Camera stabilizer",
+    "category": "stabilizers",
+    "price": 120000,
+    "sourceName": "Glidecam XR 4000",
+    "sourceCategory": "Camera Stabilizer"
+  },
+  {
+    "id": 36,
+    "title": "Zhiyun Crane 3S",
+    "description": "Motorized gimbal stabilizer",
+    "category": "stabilizers",
+    "price": 140000,
+    "sourceName": "Zhiyun CRANE 3S",
+    "sourceCategory": "Motorized Gimbal Stabilizer"
+  },
+  {
+    "id": 37,
+    "title": "Zhiyun Crane 3S",
+    "description": "Wireless monitor & focus zoom control",
+    "category": "stabilizers",
+    "price": 250000,
+    "sourceName": "Zhiyun CRANE 3S with Wireless Monitor and Focus Zoom Control",
+    "sourceCategory": "Gimbal with Wireless Monitor & Focus Control"
+  }
+]
