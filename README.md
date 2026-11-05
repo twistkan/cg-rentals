@@ -2,6 +2,10 @@
 
 Private, buildless rental catalogue with 38 equipment entries. Open `dist/index.html` through an HTTP server; the app fetches `catalogue.json` from the same origin.
 
+## Screenshot
+
+![CG Rentals Gear Desk showing the equipment catalogue, categories and rental prices](docs/screenshots/catalogue.png)
+
 ## Source
 
 `catalogue.csv` preserves the names, prices and categories from `Cams_and_Rigs_Pricelist_with_Categories.csv`, saved on 7 September 2026. The source does not specify a rental period. Prices are displayed as catalogue prices without adding a daily rate, taxes, availability or booking claims.
