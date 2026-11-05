@@ -1,8 +1,10 @@
 # CG Rentals · Gear Desk
 
+**[Download source ZIP](https://github.com/twistkan/cg-rentals/archive/refs/heads/main.zip)** · Runs in your browser through a local HTTP server.
+
 [![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-Support%20Twist%20Apps-FFDD00?style=flat&logo=buymeacoffee&logoColor=black)](https://www.yotip.me/twistkan)
 
-Private, buildless rental catalogue with 38 equipment entries. Open `dist/index.html` through an HTTP server; the app fetches `catalogue.json` from the same origin.
+Buildless rental catalogue with 38 equipment entries. Open `dist/index.html` through an HTTP server; the app fetches `catalogue.json` from the same origin.
 
 ## Screenshot
 
